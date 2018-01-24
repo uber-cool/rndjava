@@ -10,6 +10,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 public class AwaitilityTest {
 
   public static void main(String[] args) {
+	System.out.println("Starting main..");  
     System.out.println(new Date()+" - "+Thread.currentThread().getName());
     try {
       Awaitility.await().atMost(10, SECONDS).pollDelay(5, SECONDS).pollInterval(1, SECONDS)
