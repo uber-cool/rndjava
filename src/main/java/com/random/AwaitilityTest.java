@@ -16,7 +16,7 @@ public class AwaitilityTest {
           .until(new DoSomething());
     }
     catch (Exception e){
-      System.out.println(e.getMessage());
+      System.out.println("Committed to master" + e.getMessage());
     }
     System.out.println("Time is: " + new Date());
   }
