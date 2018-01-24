@@ -18,7 +18,7 @@ public class AwaitilityTest {
     catch (Exception e){
       System.out.println(e.getMessage());
     }
-    System.out.println(new Date());
+    System.out.println("Time is: " + new Date());
   }
 
 }
